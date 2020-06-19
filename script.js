@@ -77,7 +77,6 @@ q6a3.addEventListener("click", spring);
 q6a4.addEventListener("click", winter);
 
 
-
 //#TODO: Define quiz functions here
 function winter() {
   winterScore += 1;
@@ -156,4 +155,19 @@ function restartQuiz() {
   springScore = 0;
   summerScore = 0;
 }
-  }
+ 
+  
+<input type = "button" id = "q1a1" value="$alt1" onClick="changeQuestion('alternative1')">
+
+function changeQuestion(answer)
+	{
+document.getElementById(answer).style.backgroundColor = "#A9A9A9";
+	}
+  
+  
+      
+
+    
+    
+    
+    }
