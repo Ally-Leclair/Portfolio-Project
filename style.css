@@ -1,6 +1,9 @@
 /* CSS files add styling rules to your content */
 
 body {
+ display:flex;
+  justify-content:center;
+  justify-content:space-between;
   background: #f4f7c5;
   font-family: "Bookman Old Style";
   margin: 2em;
@@ -9,8 +12,9 @@ body {
 #header {
   background-color: #fbc687;
   border: 18px solid #ea907a;
-  padding: 10px;
+  padding: 3px;
   border-radius: 12px;
+  margin-bottom:100px;
 }
 
 h1 {
@@ -22,7 +26,8 @@ h1 {
 }
 
 * {
-  margin-top: 0;
+  margin-top: 0px;
+ 
 }
 
 #headerimage {
@@ -71,7 +76,7 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin-bottom:100px:\;
+  margin-bottom:70px;
 }
 .button:hover {
   opacity: 50%;
@@ -86,10 +91,11 @@ button {
 }
 
 .image {
+  align-content:center;
   border: 15px solid #aacdbe;
   border-radius: 5px;
-  margin-top: 100px;
+  margin-top: 70px;
   margin-left: 50px;
-  margin-right: 70px;
+  margin-right: 50px;
   padding: 10px;
 }
