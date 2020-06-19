@@ -7,15 +7,29 @@ body {
 }
 
 h1 {
+  background-color:green;
+  padding:200px;
   font-family: "Bookman Old Style";
   font-style: none;
   color: #373fff;
   font-size:60px;
 }
 
+*{
+  margin-top:0;
+  
+}
+
 #headerimage{
   margin-bottom:50px;
   margin-top:20px;
+}
+
+
+
+p{
+  font-family: "Bookman Old Style";
+  font-size: 20px;
 }
 
 h2 {
@@ -26,8 +40,7 @@ h2 {
   padding:70px;
   border-radius:12pc;
   font-family: "Bookman Old Style";
-  font-size: 50px;
-}
+  font-size: 50px;}
 
 
 .question {
