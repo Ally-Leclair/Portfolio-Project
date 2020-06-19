@@ -144,4 +144,3 @@ function updateResult() {
     springScore = 0;
     summerScore = 0;
   }
-

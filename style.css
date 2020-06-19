@@ -39,7 +39,9 @@ p {
 }
 
 h2 {
-  background-color: #fbc687;
+ display:flex;
+  justify-content:center;
+background-color: #fbc687;
   border: 18px solid #ea907a;
   margin-top: 2em;
   margin-left: 300px;
