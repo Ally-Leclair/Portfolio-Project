@@ -36,8 +36,11 @@ border-radius: 12px;
 }
 
 .image{
-display:flex;
-align-items:center;
+margin-top:90px;
+margin-left:80px;
+margin-right:80px;
+
+
   
  
 }
