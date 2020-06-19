@@ -25,11 +25,13 @@ h2 {
   height: 10em;
 }
 
-.button:hover {      background-color: #008CBA;      color: white;  }
-
+.image:hover {
+  opacity:50%;
+ box-shadow: 10px 10px 10px grey;
+}
 
 .image{
-border: 12px solid white;
+border: 15px solid white;
 border-radius:5px;
 margin-top:90px;
 margin-left:50px;
