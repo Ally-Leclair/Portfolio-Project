@@ -10,6 +10,7 @@ h1 {
   font-family: "Bookman Old Style";
   font-style: none;
   color: #373fff;
+  font-size:60px;
 }
 
 #headerimage{
@@ -22,9 +23,10 @@ h2 {
   margin-top: 2em;
   margin-left:300px;
   margin-right:300px;
-  padding:50px;
+  padding:70px;
+  border-radius:12pc;
   font-family: "Bookman Old Style";
-  font-size: 
+  font-size: 50px;
 }
 
 
@@ -49,6 +51,33 @@ h2 {
  box-shadow: 10px 10px 10px grey;
  
 }
+
+.button2{
+   width: 10px;
+  height: 10px;
+  margin-right:155px;
+  margin-bottom:100px;
+}
+
+.button2:hover {
+  opacity:50%;
+ box-shadow: 10px 10px 10px grey;
+ 
+}
+
+.button3{
+   width: 10px;
+  height: 10px;
+  margin-right:90px;
+  margin-bottom:100px;
+}
+
+.button3:hover {
+  opacity:50%;
+ box-shadow: 10px 10px 10px grey;
+ 
+}
+
 
 .image{
 border: 15px solid white;

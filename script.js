@@ -76,7 +76,7 @@ q6a2.addEventListener("click", fall);
 q6a3.addEventListener("click", spring);
 q6a4.addEventListener("click", winter);
 
-
+q1a1.addEventListener("onClick",)
 //#TODO: Define quiz functions here
 function winter() {
   winterScore += 1;
