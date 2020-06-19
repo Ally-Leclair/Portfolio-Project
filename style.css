@@ -1,7 +1,7 @@
 /* CSS files add styling rules to your content */
 
 body {
-  background:#ececec;
+  background:#F5EDF3;
   font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
   margin: 2em;
 }
@@ -39,8 +39,5 @@ border-radius: 12px;
 margin-top:90px;
 margin-left:80px;
 margin-right:80px;
-
-
-  
- 
 }
+
