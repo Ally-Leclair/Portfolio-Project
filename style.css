@@ -2,12 +2,12 @@
 
 body {
   background:#F5EDF3;
-  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  font-family: "Bookman Old Style";
   margin: 2em;
 }
 
 h1 {
-  font-family: "courier header";
+  font-family: "Bookman Old Style";
   font-style: none;
   color: #373fff;
 }
@@ -23,7 +23,10 @@ h2 {
   margin-left:300px;
   margin-right:300px;
   padding:50px;
+  font-family: "Bookman Old Style";
+  font-size: 
 }
+
 
 .question {
   display: flex;
@@ -39,6 +42,7 @@ h2 {
   height: 10px;
   margin-right:55px;
   margin-bottom:100px;
+
 }
 .button:hover {
   opacity:50%;

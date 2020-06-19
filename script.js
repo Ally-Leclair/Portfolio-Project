@@ -157,12 +157,7 @@ function restartQuiz() {
 }
  
   
-<input type = "button" id = "q1a1" value="$alt1" onClick="changeQuestion('alternative1')">
-
-function changeQuestion(answer)
-	{
-document.getElementById(answer).style.backgroundColor = "#A9A9A9";
-	}
+ 
   
   
       
