@@ -8,7 +8,6 @@ var fallScore = 0;
 var summerScore = 0;
 var result = document.getElementById("result");
 
-
 //#TODO: Use the DOM to create variables for the first quiz question.
 var q1a1 = document.getElementById("q1a1");
 var q1a2 = document.getElementById("q1a2");
@@ -76,8 +75,6 @@ q6a2.addEventListener("click", fall);
 q6a3.addEventListener("click", spring);
 q6a4.addEventListener("click", winter);
 
-
-
 //#TODO: Define quiz functions here
 function winter() {
   winterScore += 1;
@@ -115,8 +112,6 @@ function summer() {
   }
 }
 
-
-
 function updateResult() {
   if (winterScore >= 4) {
     result.innerHTML = "Your personality suits Winter!";
@@ -130,40 +125,19 @@ function updateResult() {
     result.innerHTML =
       "Your personality is to diverse to reflet a single season...So you're all of them!";
   }
-  
-  function disableQ1() {
-  q1a1.disabled = true;
-  q1a2.disabled = true;
-  q1a3.disabled = true;
-  q1a4.disabled = true;
-}
 
-q1a1.addEventListener("click", disableQ1);
-q1a2.addEventListener("click", disableQ1);
-q1a3.addEventListener("click", disableQ1);
-q1a4.addEventListener("click", disableQ1);
-
-  
-  //Extension 2 - Restart the Quiz
-var restart = document.getElementById("restart");
-restart.addEventListener("click", restartQuiz);
-                                  
-function restartQuiz() {
-  result.innerHTML = "Your result is..."; 
-  questionCount = 0; 
-  winterScore = 0;
-  fallScore = 0;
-  springScore = 0;
-  summerScore = 0;
-}
  
-  
- 
-  
-  
-      
 
-    
-    
-    
-    }
+  //Restart Quiz
+  var restart = document.getElementById("restart");
+  restart.addEventListener("click", restartQuiz);
+
+  function restartQuiz() {
+    result.innerHTML = "Your result is...";
+    questionCount = 0;
+    winterScore = 0;
+    fallScore = 0;
+    springScore = 0;
+    summerScore = 0;
+  }
+}
