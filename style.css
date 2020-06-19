@@ -36,8 +36,10 @@ border-radius: 12px;
 }
 
 .image{
+border: 12px solid white;
+border-radius:5px;
 margin-top:90px;
-margin-left:80px;
-margin-right:80px;
+margin-left:70px;
+margin-right:70px;
 }
 
