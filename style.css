@@ -39,9 +39,9 @@ p {
 }
 
 h2 {
- display:flex;
-  justify-content:center;
-background-color: #fbc687;
+  display: flex;
+  justify-content: center;
+  background-color: #fbc687;
   border: 18px solid #ea907a;
   margin-top: 2em;
   margin-left: 300px;
@@ -63,7 +63,7 @@ background-color: #fbc687;
 }
 
 button {
-  background-color: #aacdbe; 
+  background-color: #aacdbe;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -71,43 +71,18 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  
+  margin-bottom:100px:\;
 }
 .button:hover {
   opacity: 50%;
- 
-}
-
-.button2 {
- background-color: #aacdbe; 
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
 }
 
 .button2:hover {
   opacity: 50%;
-  box-shadow: 10px 10px 10px grey;
-}
-
-.button3 {
- background-color: #aacdbe; 
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
 }
 
 .button3:hover {
   opacity: 50%;
-  box-shadow: 10px 10px 10px grey;
 }
 
 .image {
