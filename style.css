@@ -36,5 +36,8 @@ border-radius: 12px;
 }
 
 .image{
-background color:#ff00c5;
+display:flex;
+align-items:center;
+  
+ 
 }
