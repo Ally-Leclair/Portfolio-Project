@@ -12,8 +12,16 @@ h1 {
   color: #373fff;
 }
 
+#headerimage{
+  margin
+}
+
 h2 {
-  margin-top: 2em; 
+  background-color:green;
+  margin-top: 2em;
+  margin-left:300px;
+  margin-right:300px;
+  padding:50px;
 }
 
 .question {
@@ -25,7 +33,13 @@ h2 {
   height: 10em;
 }
 
-.image:hover {
+.button{
+   width: 10px;
+  height: 10px;
+  margin-right:55px;
+  margin-bottom:100px;
+}
+.button:hover {
   opacity:50%;
  box-shadow: 10px 10px 10px grey;
 }
@@ -33,7 +47,7 @@ h2 {
 .image{
 border: 15px solid white;
 border-radius:5px;
-margin-top:90px;
+margin-top:100px;
 margin-left:50px;
 margin-right:70px;
 padding:10px;
