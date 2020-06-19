@@ -62,7 +62,7 @@ background-color: #fbc687;
   height: 10em;
 }
 
-.button {
+button {
   background-color: #aacdbe; 
   border: none;
   color: white;
@@ -75,7 +75,7 @@ background-color: #fbc687;
 }
 .button:hover {
   opacity: 50%;
-  box-shadow: 10px 10px 10px grey;
+ 
 }
 
 .button2 {
