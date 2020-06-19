@@ -45,7 +45,11 @@ var q6a3 = document.getElementById("q6a3");
 var q6a4 = document.getElementById("q6a4");
 
 //#TODO: Add Event Listeners to your answer choice variables.
-q1a1.addEventListener("click", winter);
+
+var q1a1 = document.getElementById('q1a1');
+if(q1a1){
+  q1a1.addEventListener('click', winter);
+}
 q1a2.addEventListener("click", fall);
 q1a3.addEventListener("click", spring);
 q1a4.addEventListener("click", summer);
@@ -75,7 +79,8 @@ q6a2.addEventListener("click", fall);
 q6a3.addEventListener("click", spring);
 q6a4.addEventListener("click", winter);
 
-//#TODO: Define quiz functions here
+//Quiz Functions
+
 function winter() {
   winterScore += 1;
   questionCount += 1;
@@ -123,11 +128,10 @@ function updateResult() {
     result.innerHTML = "Your personality suits Summer!";
   } else {
     result.innerHTML =
-      "Your personality is to diverse to reflet a single season...So you're all of them!";
+      "Your personality is to diverse to reflet a single season!";
   }
 
- 
-
+}
   //Restart Quiz
   var restart = document.getElementById("restart");
   restart.addEventListener("click", restartQuiz);
@@ -140,4 +144,4 @@ function updateResult() {
     springScore = 0;
     summerScore = 0;
   }
-}
+
