@@ -94,15 +94,20 @@ q3a2.addEventListener("click", disableQ3);
 q3a3.addEventListener("click", disableQ3);
 q3a4.addEventListener("click", disableQ3);
 
-q4a1.addEventListener("click", disableQ3);
-q4a2.addEventListener("click", disableQ3);
-q4a3.addEventListener("click", disableQ3);
-q3a4.addEventListener("click", disableQ3);
+q4a1.addEventListener("click", disableQ4);
+q4a2.addEventListener("click", disableQ4);
+q4a3.addEventListener("click", disableQ4);
+q4a4.addEventListener("click", disableQ4);
 
+q5a1.addEventListener("click", disableQ5);
+q5a2.addEventListener("click", disableQ5);
+q5a3.addEventListener("click", disableQ5);
+q5a4.addEventListener("click", disableQ5);
 
-
-
-
+q6a1.addEventListener("click", disableQ6);
+q6a2.addEventListener("click", disableQ6);
+q6a3.addEventListener("click", disableQ6);
+q6a4.addEventListener("click", disableQ6);
 
 //Quiz Functions
 
@@ -126,6 +131,27 @@ function disableQ3() {
   q3a2.disabled = true;
   q3a3.disabled = true;
   q3a4.disabled = true;
+}
+
+function disableQ4() {
+  q4a1.disabled = true;
+  q4a2.disabled = true;
+  q4a3.disabled = true;
+  q4a4.disabled = true;
+}
+
+function disableQ5() {
+  q5a1.disabled = true;
+  q5a2.disabled = true;
+  q5a3.disabled = true;
+  q5a4.disabled = true;
+}
+
+function disableQ6() {
+  q6a1.disabled = true;
+  q6a2.disabled = true;
+  q6a3.disabled = true;
+  q6a4.disabled = true;
 }
 
 
