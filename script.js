@@ -79,6 +79,29 @@ q6a2.addEventListener("click", fall);
 q6a3.addEventListener("click", spring);
 q6a4.addEventListener("click", winter);
 
+q1a1.addEventListener("click", disableQ1);
+q1a2.addEventListener("click", disableQ1);
+q1a3.addEventListener("click", disableQ1);
+q1a4.addEventListener("click", disableQ1);
+
+q2a1.addEventListener("click", disableQ2);
+q2a2.addEventListener("click", disableQ2);
+q2a3.addEventListener("click", disableQ2);
+q2a4.addEventListener("click", disableQ2);
+
+q3a1.addEventListener("click", disableQ3);
+q3a2.addEventListener("click", disableQ3);
+q3a3.addEventListener("click", disableQ3);
+q3a4.addEventListener("click", disableQ3);
+
+q4a1.addEventListener("click", disableQ3);
+q4a2.addEventListener("click", disableQ3);
+q4a3.addEventListener("click", disableQ3);
+q3a4.addEventListener("click", disableQ3);
+
+
+
+
 
 
 //Quiz Functions
@@ -105,10 +128,6 @@ function disableQ3() {
   q3a4.disabled = true;
 }
 
-q3a1.addEventListener("click", disableQ3);
-q3a2.addEventListener("click", disableQ3);
-q3a3.addEventListener("click", disableQ3);
-q3a4.addEventListener("click", disableQ3);
 
 function enableQuestions() {
   q1a1.disabled = false;
