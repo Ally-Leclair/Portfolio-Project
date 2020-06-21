@@ -79,15 +79,7 @@ q6a2.addEventListener("click", fall);
 q6a3.addEventListener("click", spring);
 q6a4.addEventListener("click", winter);
 
-q1a1.addEventListener("click", disableQ1);
-q1a2.addEventListener("click", disableQ1);
-q1a3.addEventListener("click", disableQ1);
-q1a4.addEventListener("click", disableQ1);
 
-q2a1.addEventListener("click", disableQ2);
-q2a2.addEventListener("click", disableQ2);
-q2a3.addEventListener("click", disableQ2);
-q2a4.addEventListener("click", disableQ2);
 
 //Quiz Functions
 
